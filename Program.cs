@@ -33,6 +33,9 @@ while (true){
         int IdChoice = int.Parse(Console.ReadLine());
         tasks[IdChoice-1].MarkAsCompleted();
     }
+    else{
+        Console.WriteLine("Please try again.");
+    }
 }
    
 

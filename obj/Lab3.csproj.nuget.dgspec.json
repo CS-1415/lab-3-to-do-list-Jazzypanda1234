@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\Lab3\\Lab3.csproj": {}
+    "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\my-code-dir\\lab-3-to-do-list-Jazzypanda1234\\Lab3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\Lab3\\Lab3.csproj": {
+    "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\my-code-dir\\lab-3-to-do-list-Jazzypanda1234\\Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\my-code-dir\\lab-3-to-do-list-Jazzypanda1234\\Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\Lab3\\Lab3.csproj",
+        "projectPath": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\my-code-dir\\lab-3-to-do-list-Jazzypanda1234\\Lab3.csproj",
         "packagesPath": "C:\\Users\\jazzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\Lab3\\obj\\",
+        "outputPath": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 3 ToDo List\\ToDoList\\my-code-dir\\lab-3-to-do-list-Jazzypanda1234\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
