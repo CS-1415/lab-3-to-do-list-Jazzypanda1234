@@ -12,7 +12,14 @@ while (true){
     }
 
     Console.WriteLine("Press '+' to add a task. Press 'x' to toggle whether or not the task is complete. Press 'i' to view a task's information.");
-    char Choice = char.Parse(Console.ReadLine());
+    string temp = Console.ReadLine();
+
+    try{
+        char Choice = char.Parse(temp);
+    }
+    catch (Exception e){
+        Console.WriteLine("Invalid input try again.");
+    }
     
     if (Choice == '+'){
         int Id = tasks.Count()+1;
@@ -22,22 +29,24 @@ while (true){
         string Description = Console.ReadLine();
         tasks.Add(new Task(Title, Description, false, Id));
     }
+
     else if (Choice == 'i'){
         Console.WriteLine("Please input the task Id: ");
         int IdChoice = int.Parse(Console.ReadLine());
         Console.WriteLine(tasks[IdChoice-1].DisplayDescription());
-        
     }
+
     else if (Choice == 'x'){
         Console.WriteLine("Input task Id to toggle: ");
         int IdChoice = int.Parse(Console.ReadLine());
         tasks[IdChoice-1].MarkAsCompleted();
     }
+
     else{
         Console.WriteLine("Please try again.");
     }
 }
-   
+
 
 
 public class Task
@@ -57,9 +66,11 @@ public class Task
     public string DisplayTask() {
         return $"[{(IsComplete ? 'x' : ' ')}] {Id} {Title}";
     }
+
     public string DisplayDescription(){
         return Description;
     }
+    
     public void MarkAsCompleted(){
         IsComplete = IsComplete ? false : true;
     }
